@@ -1,0 +1,17 @@
+title 0.6: New note
+
+on
+end note
+
+note over browser: 
+convert the new note into JSON format
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over server: 
+server processes the new note 
+and adds it to the notes page
+end note
+
+server-->browser:  New note 

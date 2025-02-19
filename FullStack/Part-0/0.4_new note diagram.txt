@@ -1,0 +1,19 @@
+```mermaid
+
+sequenceDiagram
+    participant User
+    participant WebPage
+    participant Server
+
+    User->>WebPage: Open "Notes" page
+    User->>WebPage: Write text in the input field
+    WebPage->>User: Display "Save" button
+    User->>WebPage: Click "Save" button
+
+    alt Text is not empty
+        WebPage->>Server: Send text to save
+        Server->>WebPage: Save successful
+        WebPage->>User: Display saved text in list
+    else Text is empty
+        WebPage->>User: Display error message "Please enter some text"
+    end
