@@ -17,7 +17,3 @@ Bu proje, REST API aracılığıyla ülkelerin bilgilerini alarak kullanıcıya 
 - **CSS**: Sayfa stilizasyonu için temel CSS kullanılmıştır.
 - **REST API**: Ülke verilerini almak için [restcountries.com](https://restcountries.com/) API'si kullanılmıştır.
 - **OpenWeather API**: Başkentlerin hava durumu verilerini almak için OpenWeather API kullanılmıştır.
-
-## Proje Yapısı
-
-├── public/ # Uygulamanın genel statik dosyaları │ ├── index.html # Uygulamanın ana HTML dosyası │ └── ... ├── src/ # Kaynak dosyaları │ ├── App.js # Uygulamanın ana bileşeni │ ├── index.js # React uygulamasının giriş noktası │ ├── components/ # Uygulama bileşenleri (Arama, Ülke Bilgileri vb.) │ └── styles/ # CSS dosyaları ├── package.json # Proje bağımlılıkları ve betikler └── README.md #
