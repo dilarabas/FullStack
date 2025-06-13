@@ -20,5 +20,4 @@ Bu proje, React ve React Router kullanılarak geliştirilmiş yönlendirmeli (ro
 
 ### Gereksinimler
 
-- Node.js (14 veya üstü önerilir)  
 - npm veya yarn paket yöneticisi  
